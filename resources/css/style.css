@@ -81,7 +81,7 @@ main img {
     margin: 32px 24px;
 }
 .main-text {
-    display: flex;
+    display: flex-wrap;
     flex-direction: column;
     margin-left: 24px;
 }
@@ -114,5 +114,95 @@ main img {
     padding: 15px 150px;
 }
 
+.practice-section {
+    display: flex;
+   
+}
 
+.information-main {
+    width: 60%;
+    padding: 32px 24px;  
+    border-right: 1px ridge rgb(241, 241, 241);  
+    
+}
+
+.information-main img {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+#practice-header {
+    margin-bottom: 24px;
+    color: rgb(71, 71, 71);
+    font-weight: 800;
+    font-size: 36;
+    
+}
+
+#practice-description {
+    margin-bottom: 40px;
+    color: rgb(80, 80, 80, 1);
+}
+
+#source {
+    font-size: 12px;
+    margin-bottom: 32px;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    width: 40%;
+}
+
+.orientation-date {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px ridge rgb(241, 241, 241);
+}
+.our-campus {
+    display: flex;
+    align-items: center;
+    border-top: 1px ridge rgb(241, 241, 241);
+} 
+.our-guest {
+    display: flex;
+    align-items: center;
+}
+ 
+.our-campus img, 
+.our-guest img {
+    width: 35%;
+    height: auto;
+    margin: 16px 16px;
+}
+
+.orientation-date img {
+    width: 35%;
+    height: auto;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+.events-description {
+    margin-left: 30px;
+}
+
+.events-description h2 {
+    margin-bottom: 8px;
+    color: rgb(71, 71, 71);
+}
+
+.events-description p {
+    margin-bottom: 8px;
+    color: rgb(71, 71, 71);
+    line-height: 1.5;
+}
+.events-description a {
+    text-decoration: none;
+}
+
+.our-guest {
+    background-color: rgb(189, 189, 189);
+}
 
