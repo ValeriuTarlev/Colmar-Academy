@@ -262,3 +262,114 @@ main img {
     margin-bottom: 24px;
     line-height: 1.5;
 }
+
+.exhibit {
+    display: flex;
+
+}
+
+.exhibit-header {
+    padding: 32px 0;
+    color: rgb(71, 71, 71);
+    font-weight: 800;
+    font-size: 20px;
+    justify-items: center;
+}
+
+video {
+    margin-right: 24px;
+    padding-bottom: 24px;
+}
+
+.reimagine-urban {
+    margin-left: auto;
+}
+
+.reimagine-urban h2 {
+    padding-bottom: 8px;
+    color: rgb(71, 71, 71);
+    font-size: x-large;
+}
+
+.reimagine-urban p {
+    padding-bottom: 32px;
+    color: rgb(71, 71, 71);
+    font-size: large;
+    line-height: 1.5;
+}
+
+.exhibit-section-left {
+    width: 60%;
+    margin: 0 24px;
+}
+
+
+.exhibit-section-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-right: 8px;
+}
+
+.fisma {
+    display: flex;
+    background-color: rgb(225, 225, 225);
+    align-items: center;
+    padding-left: 16px;
+}
+
+.now-and-then {
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+}
+
+.fisma img, 
+.now-and-then img {
+    width: 35%;
+    padding: 16px;
+}
+
+.fisma-description,
+.now-and-then-description {
+    padding-left: 16px; 
+}
+
+.fisma-description h2,
+.now-and-then-description h2 {
+    line-height: 1.5;
+    color:rgb(71, 71, 71);
+    padding-bottom: 8px;
+}
+
+.fisma-description p,
+.now-and-then-description p {
+    line-height: 1.5;
+    color:rgb(71, 71, 71)
+}
+
+.colmar-academy {
+    display: flex;
+    border-top: 1px ridge rgb(225, 225, 225);  
+}
+    
+.copyright {
+    margin: 16px auto 40px 24px;
+}
+
+.terms-privacy {
+    margin-right: 24px;
+}
+
+.terms-privacy ul {
+    margin-right: 24px;
+    margin-top: 16px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+
+
+
+
