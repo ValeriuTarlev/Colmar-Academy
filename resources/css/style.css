@@ -122,7 +122,7 @@ main img {
 .information-main {
     width: 60%;
     padding: 32px 24px;  
-    border-right: 1px ridge rgb(241, 241, 241);  
+    border-right: 1px ridge rgb(225, 225, 225);  
     
 }
 
@@ -145,7 +145,7 @@ main img {
 }
 
 #source {
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 32px;
 }
 
@@ -159,12 +159,12 @@ main img {
 .orientation-date {
     display: flex;
     align-items: center;
-    border-bottom: 1px ridge rgb(241, 241, 241);
+    border-bottom: 1px ridge rgb(225, 225, 225);
 }
 .our-campus {
     display: flex;
     align-items: center;
-    border-top: 1px ridge rgb(241, 241, 241);
+    border-top: 1px ridge rgb(225, 225, 225);
 } 
 .our-guest {
     display: flex;
@@ -200,9 +200,65 @@ main img {
 }
 .events-description a {
     text-decoration: none;
+
 }
 
 .our-guest {
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(225, 225, 225);
 }
 
+.learning {
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    background-color: rgb(225, 225, 225);
+    padding-bottom: 32px;
+}
+
+.learning h1 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: rgb(71, 71, 71);
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.courses-pattern {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 72px;
+    gap: 32px;
+    justify-content: center;
+}
+
+.courses {
+    max-width: 30%;
+    height: auto;
+    background-color: white;
+}
+
+.courses img {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    margin-left: 16px;
+}
+
+.description h2 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.description h3 {
+    margin-bottom: 8px;
+    color: rgb(71, 71, 71);
+    font-weight: 400;
+    
+}
+
+.description p {
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
